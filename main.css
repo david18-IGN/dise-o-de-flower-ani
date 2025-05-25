@@ -42,7 +42,7 @@ body {
 .texto-3D {
   margin-bottom: 180px;
   font-family: "victor mono";/* Arial, sans-serif*/
-  color: rgb(74, 5, 11);
+  color: red(74, 5, 11);
   position: absolute;
   font-weight: bold;
   text-shadow: 
