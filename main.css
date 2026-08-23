@@ -38,9 +38,8 @@ body {
       letter-spacing: 3px;
   }
 
-}
-texto-3D {
-  margin-bottom: 380px;
+.texto-3D {
+ margin-bottom: 180px;
   font-family: "victor mono";/* Arial, sans-serif*/
   color: #7a3f3f;
   position: absolute;
@@ -55,16 +54,6 @@ texto-3D {
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
-}
-
-/* Sube el texto en celulares para que no quede tapado por las flores */
-@media only screen and (max-width: 600px) {
-  .texto-3D {
-    margin-bottom: 620px;
-    font-size: 0.85rem;
-    letter-spacing: 6px;
-    padding: 0 12px;
-  }
 }
 @keyframes fadeIn {
   from {
